@@ -5,11 +5,15 @@
   box-sizing: border-box;
  }
 
- body {
-  background: ;
-  color: ;
-  -webkit-font-smoothing: antialiased;
- }
+ html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  line-height: 1;
+  font-family: sans-serif;
+}
 
  body, input, button, table {
   font-size: ;
@@ -39,3 +43,5 @@
   ol, ul {
     list-style: none;
   }
+
+  a { color: inherit; } 

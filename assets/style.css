@@ -1,0 +1,25 @@
+:root {
+    --mint: #bfe5d9;
+    --darkGrey: #2f2e2e;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+header {
+    background-color: var(--darkGrey);
+}
+
+header h1 {
+    background-color: var(--mint);
+    color: var(--darkGrey);
+}
+
+nav ul {
+    color: var(--mint);
+}
+
+button {
+    display: flex
+}

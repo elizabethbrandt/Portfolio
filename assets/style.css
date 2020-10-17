@@ -9,15 +9,33 @@ body {
 
 header {
     background-color: var(--darkGrey);
+    margin: 1%;
+    position: relative;
 }
 
 header h1 {
     background-color: var(--mint);
     color: var(--darkGrey);
+    position: absolute;
 }
 
 nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2%;
     color: var(--mint);
+}
+
+figure img {
+    height: 50%;
+    position: relative;
+    background-size: cover;
+}
+
+figure h2 {
+    background-color: var(--mint);
+    color: var(--darkGrey);
+    position: absolute;
 }
 
 button {

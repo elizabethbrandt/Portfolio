@@ -62,21 +62,28 @@ main {
 
 section {
     margin: 2%;
+    display: flex;
 }
 
 section h2 {
     font-size: 30px;
     font-weight: 100;
+    width: 20%;
+    /* justify-content: flex-end; */
 }
 
-/* button {
+section div {
+    width: 80%;
+}
+
+button {
     display: flex;
     border: var(--green);
     border-width: 5px;
-    position: relative;
+    /* position: relative; */
 }
 
-button div {
+/* button div {
     position: absolute;
 } */
 

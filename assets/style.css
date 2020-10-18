@@ -56,6 +56,23 @@ main {
     margin: 2% 8%;
 }
 
-button {
-    display: flex
+/* button {
+    display: flex;
+    border: var(--green);
+    border-width: 5px;
+    position: relative;
+}
+
+button div {
+    position: absolute;
+} */
+
+/* .larger-section {
+    width: 100%;
+    flex-grow: 3;
+} */
+
+.contact-me {
+    display: flex;
+    justify-content: space-evenly;
 }

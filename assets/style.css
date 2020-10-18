@@ -1,5 +1,5 @@
 :root {
-    --mint: #bfe5d9;
+    --green: #bfe5d9;
     --darkGrey: #2f2e2e;
 }
 
@@ -14,28 +14,46 @@ header {
 }
 
 header h1 {
-    background-color: var(--mint);
+    background-color: var(--green);
     color: var(--darkGrey);
+    font-size: 36px;
+    padding: 5px 5px 5px 50px;
     position: absolute;
+    top: 5%;
 }
 
 nav ul {
     display: flex;
     justify-content: flex-end;
     padding: 2%;
-    color: var(--mint);
+    margin-right: 20px;
+    font-size: 18px;
+    color: var(--green);
+}
+
+nav ul li {
+    padding: 1%;
 }
 
 figure img {
-    height: 50%;
+    height: 200px;
     position: relative;
-    background-size: cover;
+    object-fit: cover;
 }
 
 figure h2 {
-    background-color: var(--mint);
+    background-color: var(--green);
     color: var(--darkGrey);
     position: absolute;
+    right: 30px;
+    bottom: 25px;
+    z-index: 2;
+    font-size: 22px;
+    padding: 5px;
+}
+
+main {
+    margin: 2% 8%;
 }
 
 button {

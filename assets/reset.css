@@ -15,17 +15,6 @@ body {
   font-family: sans-serif;
 }
 
- body, input, button, table {
-  font-size: ;
-  font-family: ;
- }
-
- #root {
-  margin: ;
-  padding: ;
-  max-width: ;
- }
-
  button {
   cursor: pointer;
  }

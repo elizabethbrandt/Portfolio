@@ -5,6 +5,7 @@
 
 body {
     background-color: lightgrey;
+    font-family: sans-serif;
 }
 
 header {
@@ -17,6 +18,7 @@ header h1 {
     background-color: var(--green);
     color: var(--darkGrey);
     font-size: 36px;
+    font-weight: 500;
     padding: 5px 5px 5px 50px;
     position: absolute;
     top: 5%;
@@ -49,11 +51,22 @@ figure h2 {
     bottom: 25px;
     z-index: 2;
     font-size: 22px;
+    font-weight: 100;
     padding: 5px;
 }
 
 main {
     margin: 2% 8%;
+    color: var(--darkGrey);
+}
+
+section {
+    margin: 2%;
+}
+
+section h2 {
+    font-size: 30px;
+    font-weight: 100;
 }
 
 /* button {
@@ -72,7 +85,17 @@ button div {
     flex-grow: 3;
 } */
 
+button:hover {
+    box-shadow: inset 0px 0px 10px var(--green);
+}
+
 .contact-me {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media screen and (max-width: 922px) {
+    nav ul {
+        flex-direction: column;
+    }
 }

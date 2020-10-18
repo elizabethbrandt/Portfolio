@@ -10,7 +10,6 @@ body {
 
 header {
     background-color: var(--darkGrey);
-    margin: 1%;
     position: relative;
 }
 
@@ -69,7 +68,11 @@ section h2 {
     font-size: 30px;
     font-weight: 100;
     width: 20%;
-    /* justify-content: flex-end; */
+    text-align: end;
+    margin-right: 20px;
+    border-right: 3px solid;
+    border-color: var(--darkGrey);
+    padding: 10px;
 }
 
 section div {
@@ -77,31 +80,38 @@ section div {
 }
 
 button {
-    display: flex;
     border: var(--green);
     border-width: 5px;
-    /* position: relative; */
+    width: 50%;
+    position: relative;
 }
+
+/* .css-cheatsheet {
+    background-image: url(./images/css-cheatsheet-screenshot.png);
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+} */
 
 /* button div {
     position: absolute;
 } */
 
-/* .larger-section {
+.larger-section {
     width: 100%;
     flex-grow: 3;
-} */
+}
 
 button:hover {
     box-shadow: inset 0px 0px 10px var(--green);
 }
 
-.contact-me {
+.contact-type {
     display: flex;
     justify-content: space-evenly;
 }
 
-@media screen and (max-width: 922px) {
+@media screen and (max-width: 922px) {    
     nav ul {
         flex-direction: column;
     }
